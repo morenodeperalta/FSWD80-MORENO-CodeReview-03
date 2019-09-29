@@ -1,0 +1,258 @@
+$NavBarbackgroundColor: #C20F17
+$NavBarbackgroundColorFooter: #000
+$NavBarwidth: 100% 
+$navBarDisplay: flex
+$navBarFormatFontSize: 20px
+$navBarFormatdisplay: inline-block
+$navBarFormatpadding-right: 0px
+$navBarFormatmargin-left: 10px
+$navBarTextColor: #fcf5f5
+$navBarTextDecoration: none
+$effectsjustify-content:space-around
+$effectswidth: 100%
+$colorHeaderAndTitles: #fcf5f5
+$paddingTables: 50px
+$tablesFormatColor: #363636
+$tablesTextDimentionwidth: 420px
+$tablesTextDimentionheight: 340px
+$tablesBorder: 2px  $tablesFormatColor
+$tablesBoxShadow: 1px 1px $tablesFormatColor, -1px -2px $tablesFormatColor
+$tabelsborderRadius: 3px
+$dataInputjustify-content:space-around
+$colorButtonAndResult: #014012
+$containerCoverage_nameAgeHolder_width: 150px
+$containerCoverage_nameAgeHolder_height: 40px
+
+
+// ----------------------------------------------GENERAL INDEX & TEAM---------------------------------------------------------
+
+.container
+	margin: 0px
+	padding: 0px
+	font-family: 'Oxygen Mono', monospace
+
+// ----------------------------------------------HEADER INDEX & TEAM---------------------------------------------------------
+
+.logoHeader
+	padding: 3%
+	flex-grow: 1
+		
+.bannerHeader
+	padding: 2%
+
+.effectsHeader
+	display: flex
+	background-color: $colorHeaderAndTitles
+	justify-content: $effectsjustify-content
+	width: $effectswidth
+
+// ----------------------------------------------NAVBAR HEADER INDEX & TEAM---------------------------------------------------------
+
+.navBar
+	background-color: $NavBarbackgroundColor
+	width: $NavBarwidth
+	display: $navBarDisplay
+	
+.navBarFormat
+	font-size: $navBarFormatFontSize
+	display: $navBarFormatdisplay
+	padding-right: $navBarFormatpadding-right
+	margin-left: $navBarFormatmargin-left
+
+.navBarText
+	color: $navBarTextColor
+	text-decoration: $navBarTextDecoration
+
+
+// ----------------------------------------------CONTEINER COVERAGE INDEX ---------------------------------------------------------
+
+
+#backgroundImageSize
+	width: $effectswidth
+	height: 850px
+
+
+.containerCoverage
+	position: relative
+
+.textAndImageContainer
+
+.textTittle
+	position: absolute
+	font-size: 20px
+	margin-left: 70px
+	color:  $colorHeaderAndTitles
+
+.textUnderImage
+	text-align: center
+	width: $effectswidth
+	background-color: lightgrey
+	margin-top: -4px
+	padding-top: 30px
+
+// ----------------------------------------DATA INPUT INDEX ------------------------------------------------------------
+
+.dataInput
+	border: 2px solid $tablesFormatColor
+	background-color: lightgrey
+	opacity: 0.93
+	position: absolute
+	bottom: 150px
+	margin-left: 23%
+	margin-right: 23%
+
+.titleDataInput
+	text-align: center
+	font-size: 40px
+	margin-left: 1%
+
+.effectTittleDataInput
+	font-size: 60px
+	color: #474646 !important
+
+.effectTittleDataInput:hover
+	font-size: 60px
+	color: none !important
+
+.nameAgeHolder
+	
+	display: flex
+	justify-content: $dataInputjustify-content
+	width: $effectswidth
+	
+.name
+
+#nameInput
+	width: $containerCoverage_nameAgeHolder_width
+	height: $containerCoverage_nameAgeHolder_height
+
+.age
+
+#ageInput
+	
+	width: $containerCoverage_nameAgeHolder_width
+	height: $containerCoverage_nameAgeHolder_height
+
+.countryHorseHolder	
+	display: flex
+	justify-content: $dataInputjustify-content
+	width: $effectswidth
+
+.country
+#countrySelection
+	
+	width: $containerCoverage_nameAgeHolder_width
+	height: $containerCoverage_nameAgeHolder_height
+
+.horsePower
+#horsePowerInput
+	
+	width: $containerCoverage_nameAgeHolder_width
+	height: $containerCoverage_nameAgeHolder_height
+
+.calculateButton
+	text-align: center
+	
+
+#buttonExecution
+	padding: 10px 15px
+	font-size: 30px
+	cursor: pointer
+	background-color: #249c44
+	margin-top: 10px
+	color: white
+	border: none
+	border-radius: 50px
+
+#buttonExecution:hover
+	background-color: $colorButtonAndResult
+	box-shadow: 0 2px 2px #249c44
+
+
+.printCalculation
+	text-align: center
+	color: $colorButtonAndResult
+	font-size: 30px
+	margin-top: 10px
+	
+
+// ----------------------------------------TABLES INDEX  ------------------------------------------------------------
+
+
+.tables
+	display: flex
+	justify-content: space-around
+	width: $effectswidth
+	padding-top: $paddingTables
+	padding-bottom: $paddingTables
+
+.textStandard
+	width: $tablesTextDimentionwidth
+	height: $tablesTextDimentionheight
+	border: $tablesBorder
+	border-radius: $tabelsborderRadius
+	box-shadow: $tablesBoxShadow
+.protectionAndCoverage
+	width: $tablesTextDimentionwidth
+	height: $tablesTextDimentionheight
+	border: $tablesBorder
+	border-radius: $tabelsborderRadius
+	box-shadow: $tablesBoxShadow
+
+// -----------------------------------------------FOOTER INDEX & TABEL------------------------------------------------------------
+
+
+.navBarFooter
+	background-color: $NavBarbackgroundColorFooter
+	width: $NavBarwidth
+	display: $navBarDisplay
+
+.navBarFormatFooter
+	font-size: $navBarFormatFontSize
+	display: $navBarFormatdisplay
+	padding-right: $navBarFormatpadding-right
+	margin-left: $navBarFormatmargin-left
+
+.navBarFooterText
+	color: $navBarTextColor
+	text-decoration: $navBarTextDecoration
+
+.effectsfooter
+	background-color: $NavBarbackgroundColorFooter
+	justify-content: $effectsjustify-content
+	width: $effectswidth
+
+.logofooter
+	width: 98%
+	text-align: right
+	
+.logoCopyright
+	width: 100%
+	text-align: center
+	color: $navBarTextColor
+	
+// ----------------------------------------@MEDIA INDEX ------------------------------------------------------------
+
+
+// @media (min-width: 768px) and (max-width: 1024px) 	/* for Tablet devices */
+
+
+// .bannerHeader
+// 	display: none
+
+// .navBarFormat
+// 	font-size: 20px
+// 	display: inline-block
+// 	padding-right: 0px
+// 	margin-left: 10px
+
+// .navBarFormatFooter
+// 	margin-left: 40px
+// 	padding-right: 20px
+	
+
+
+// ----------------------------------------STYLE PAGE TEAM ------------------------------------------------------------
+
+
+

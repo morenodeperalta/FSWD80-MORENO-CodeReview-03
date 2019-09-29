@@ -1,0 +1,175 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Oxygen Mono", monospace; }
+
+.logoHeader {
+  padding: 3%;
+  flex-grow: 1; }
+
+.bannerHeader {
+  padding: 2%; }
+
+.effectsHeader {
+  display: flex;
+  background-color: #fcf5f5;
+  justify-content: space-around;
+  width: 100%; }
+
+.navBar {
+  background-color: #C20F17;
+  width: 100%;
+  display: flex; }
+
+.navBarFormat {
+  font-size: 20px;
+  display: inline-block;
+  padding-right: 0px;
+  margin-left: 10px; }
+
+.navBarText {
+  color: #fcf5f5;
+  text-decoration: none; }
+
+#backgroundImageSize {
+  width: 100%;
+  height: 850px; }
+
+.containerCoverage {
+  position: relative; }
+
+.textTittle {
+  position: absolute;
+  font-size: 20px;
+  margin-left: 70px;
+  color: #fcf5f5; }
+
+.textUnderImage {
+  text-align: center;
+  width: 100%;
+  background-color: lightgrey;
+  margin-top: -4px;
+  padding-top: 30px; }
+
+.dataInput {
+  border: 2px solid #363636;
+  background-color: lightgrey;
+  opacity: 0.93;
+  position: absolute;
+  bottom: 150px;
+  margin-left: 23%;
+  margin-right: 23%; }
+
+.titleDataInput {
+  text-align: center;
+  font-size: 40px;
+  margin-left: 1%; }
+
+.effectTittleDataInput {
+  font-size: 60px;
+  color: #474646 !important; }
+
+.effectTittleDataInput:hover {
+  font-size: 60px;
+  color: none !important; }
+
+.nameAgeHolder {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+#nameInput {
+  width: 150px;
+  height: 40px; }
+
+#ageInput {
+  width: 150px;
+  height: 40px; }
+
+.countryHorseHolder {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; }
+
+#countrySelection {
+  width: 150px;
+  height: 40px; }
+
+#horsePowerInput {
+  width: 150px;
+  height: 40px; }
+
+.calculateButton {
+  text-align: center; }
+
+#buttonExecution {
+  padding: 10px 15px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #249c44;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 50px; }
+
+#buttonExecution:hover {
+  background-color: #014012;
+  box-shadow: 0 2px 2px #249c44; }
+
+.printCalculation {
+  text-align: center;
+  color: #014012;
+  font-size: 30px;
+  margin-top: 10px; }
+
+.tables {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.textStandard {
+  width: 420px;
+  height: 340px;
+  border: 2px #363636;
+  border-radius: 3px;
+  box-shadow: 1px 1px #363636, -1px -2px #363636; }
+
+.protectionAndCoverage {
+  width: 420px;
+  height: 340px;
+  border: 2px #363636;
+  border-radius: 3px;
+  box-shadow: 1px 1px #363636, -1px -2px #363636; }
+
+.navBarFooter {
+  background-color: #000;
+  width: 100%;
+  display: flex; }
+
+.navBarFormatFooter {
+  font-size: 20px;
+  display: inline-block;
+  padding-right: 0px;
+  margin-left: 10px; }
+
+.navBarFooterText {
+  color: #fcf5f5;
+  text-decoration: none; }
+
+.effectsfooter {
+  background-color: #000;
+  justify-content: space-around;
+  width: 100%; }
+
+.logofooter {
+  width: 98%;
+  text-align: right; }
+
+.logoCopyright {
+  width: 100%;
+  text-align: center;
+  color: #fcf5f5; }
+
+/*# sourceMappingURL=style.css.map */

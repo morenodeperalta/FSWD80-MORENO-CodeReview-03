@@ -1,0 +1,144 @@
+// ----------------------------------------------GENERAL INDEX & TEAM---------------------------------------------------------
+// containerCoverage
+
+var textAndImageContainer =[{
+	"title": "",
+	"videolink":"img/hands.jpg",
+	"alt":"traffic",
+	"height":"1424px", 
+	"width":"1424px",		
+}];
+
+var textTittle=[{
+	"text": "Our Team",
+}];
+
+var teamMembers=[{
+
+"name":"Fran",
+"email":"fran@index.com",
+"image":"img/marlon%20brando.gif"
+},{
+"name":"Bill",
+"email":"bill@index.com",
+"image":"img/pierce%20brossman.gif"
+},{
+"name":"Fritz",
+"email":"fritz@index.com",
+"image":"img/shean%20Conory.gif"
+}];
+
+
+	// "line1": "Fran",
+	// "line2": "fran@index.com",
+	// "line3": "images/person1.png",
+	// "line4": "Bill",
+	// "line5": "bill@index.com",
+	// "line6": "images/person2.png",
+	// "line7": "Fritz",
+	// "line8": "fritz@index.com",
+	// "line9": "images/person3.png",
+	// "line4": "strating whith who and what is covered",
+
+
+
+// ----------------------------------------DATA INPUT INDEX ------------------------------------------------------------
+// Data Input
+
+// var titleDataInput =[{
+// 	"line1": "Great cove",
+// 	"line1a": "r",
+// 	"line1b":"ag",
+// 	"line1c":"e",
+// 	"line1d":" begi",
+// 	"line1e":"n",
+// 	"line1f":"s",
+// 	"line2": "wi",
+// 	"line2a":"t",
+// 	"line2b":"h", 
+// 	"line2c":" a c",
+// 	"line2d":"us",
+// 	"line2e":"tom quote",
+// }];
+
+// var nameDataInput =[{
+// 	"text": "Your name:",
+// 	"line1": "text",
+// 	"line2": "fullName",
+// 	"line3": "",	 
+// }];
+
+// var ageDataInput =[{
+// 	"text": "Your age:",
+// 	"line1": "number",
+// 	"line2": "yourAge",
+// 	"line3": "",
+// 	"line4": "18",
+// 	"line5": "100",		 
+// }];
+
+// var countryDataInput =[{
+// 	"text": "Country:",
+// 	"line1": "Austria",
+// 	"line2": "Greece",
+// 	"line3": "Hungary", 
+// }];
+
+// var horsePowerDataInput =[{
+// 	"text": "Horsepower:",
+// 	"line1": "number",
+// 	"line2": "yourHorsepower",
+// 	"line3": "",
+// 	"line4": "100",
+// 	"line5": "1000",		 
+// }];
+
+// var calculateButton =[{
+// 	// "line1": "reset",
+// 	// "line2": "Submit",	
+// 	// "line3": "CalculateInsurance()",	 
+// }];
+
+// var printCalculation =[{
+// 	"line1": "Printet calculation goes here",	 
+// }];
+											// tables
+
+// var textStandard=[{
+// 	"line1": "What comes Standard",
+// 	"line2": "The coverage you need",
+// 	"line3": "Bodily Ingury Liability",
+// 	"line4": "Property Damage",
+// 	"line5": "Medical Payments",
+// 	"line6": "Benefits",
+// 	"line7": "12-month rate guarantee | 24/7 customer",
+// 	"line8": "service | Lifetime Repair Guarantee",
+
+// }];
+
+// var protectionAndCoverage=[{
+// 	"line1": "Add-on protection & coverage",
+// 	"line2": "for more peace of mind",
+// 	"line3": "Better Car Replacement",
+// 	"line4": "Towing & Labor",
+// 	"line5": "Rental Car Coverage",
+// 	"line6": "Earned Benefits",
+// 	"line7": "Accident Forgiveness1 | New Car",
+// 	"line8": "ReplacementTM",
+// }];
+
+var teamMembers = [{
+"name":"Fran",
+"email":"fran@index.com",
+"image":"images/person1.png"
+},{
+"name":"Bill",
+"email":"bill@index.com",
+"image":"images/person2.png"
+},{
+"name":"Fritz",
+"email":"fritz@index.com",
+"image":"images/person3.png"
+}];
+
+
